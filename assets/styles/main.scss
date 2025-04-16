@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+    background: #f9f9f9;
+    color: #333;
+}
+
+.account-page {
+    padding: 2rem;
+
+    .logout-btn {
+        background: #dc3545;
+        color: #fff;
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 12px;
+        margin-bottom: 1rem;
+        cursor: pointer;
+    }
+
+    .filters {
+        display: flex;
+        justify-content: flex-end;
+        gap: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .user-table {
+        width: 100%;
+        border-collapse: collapse;
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 0.5rem;
+        }
+
+        th {
+            background: #f0f0f0;
+        }
+    }
+}
